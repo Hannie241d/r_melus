@@ -20,6 +20,9 @@ from applications.home.views import IndexView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', IndexView.as_view(), name='home'),  # Ruta para la página principal usando IndexView
+    path('home/', IndexView.as_view()),
+    path('', IndexView.as_view(), name='arrays'),
+
+
 ]
 
