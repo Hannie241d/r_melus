@@ -18,10 +18,17 @@ INSTALLED_APPS = [
    # local apps
     'applications.tutores',
     'applications.pedagogia',
-    'applications.becas',
     'applications.canalizaciones',
     'applications.home',
     'applications.docentes',
+    'applications.psicologos',
+    'applications.pedagogos',
+    'applications.encargadosBecas',
+    'applications.becas',
+    'applications.grupos',
+    'applications.carreras',
+
+
 
 
 

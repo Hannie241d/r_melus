@@ -1,6 +1,5 @@
 from django.apps import AppConfig
 
-
-class BecasConfig(AppConfig):
+class DocentesConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'applications.becas'
+    name = 'applications.becas'  # El nombre de la aplicación debe coincidir exactamente

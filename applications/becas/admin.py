@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Becas  # Importa tu modelo
 
-# Register your models here.
+
+# Registra tu modelo en el administrador
+admin.site.register(Becas)

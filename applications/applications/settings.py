@@ -40,6 +40,13 @@ INSTALLED_APPS = [
     
     # Agregar tu aplicación 'docentes'
     'applications.docentes',
+    'applications.psicologos',
+    'applications.pedagogos',
+    'applications.encargadosBecas',
+    'applications.becas',
+    'applications.grupos',
+    'applications.carreras',
+    
 ]
 
 MIDDLEWARE = [
